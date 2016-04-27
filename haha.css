@@ -1,0 +1,13 @@
+.haha--business span {
+  opacity: 0;
+  top: -2px;
+  transition: top 0.4s, opacity 0.2s;
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
+  position: relative;
+  display: inline-block;
+}
+.haha--business:hover span {
+  top: -11px;
+  opacity: 1;
+}
